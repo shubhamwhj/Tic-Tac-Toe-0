@@ -20,16 +20,16 @@ function setup() {
 function draw()
 {
 
- createRow(150)
- createRow(250)
- createRow(350)  
+ createRow()
+ createRow()
+ createRow()  
 }
 
 function createRow(y)
 {
   for (x = 150; x < 450; x=x+100)
    {
-       var b1= new Box(x, y, 100, 100); 
+       var b1= new Box(); 
        b1.appear();   
    }  
 }
