@@ -19,7 +19,7 @@ function setup() {
 
 function draw()
 {
- console.log(mouseX,mouseY)
+
  createRow(150)
  createRow(250)
  createRow(350)  
@@ -56,36 +56,7 @@ function mousePressed() {
     textx=400
     texty=200
   } 
-  else if(mouseX < 250 && mouseY < 350) {
-    currentColor = "white";
-    textx=200
-    texty=300
-  } 
-  else if(mouseX < 350 && mouseY < 350) {
-    currentColor = "white";
-    textx=300
-    texty=300
-  } 
-  else if(mouseX < 450 && mouseY < 350) {
-    currentColor = "white";
-    textx=400
-    texty=300
-  } 
-  else if(mouseX < 250 && mouseY < 450) {
-    currentColor = "white";
-    textx=200
-    texty=400
-  } 
-  else if(mouseX < 350 && mouseY < 450) {
-    currentColor = "white";
-    textx=300
-    texty=400
-  }  
-  else if(mouseX < 450 && mouseY < 450) {
-    currentColor = "white";
-    textx=400
-    texty=400
-  } 
+  
       
 
   if(turn%2==0)
